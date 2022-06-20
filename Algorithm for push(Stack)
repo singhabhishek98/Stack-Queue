@@ -1,0 +1,9 @@
+begin
+ if stack is full
+    return
+ endif
+else  
+ increment top
+ stack[top] assign value
+end else
+end procedure
