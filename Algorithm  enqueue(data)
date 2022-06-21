@@ -1,0 +1,9 @@
+   if queue is full
+   return overflow
+   endif
+   
+   rear ← rear + 1
+   queue[rear] ← data
+   return true
+   
+end procedure
